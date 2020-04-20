@@ -24,7 +24,7 @@ scalar_map = mpl.cm.ScalarMappable(norm=norm, cmap=color_map)
 plt.colorbar(scalar_map, label='Colorbar Title')
 ```
 
-![](matplotlib_images\colorbar.png)
+![](matplotlib_images/colorbar.png)
 
 ### 2. Annotation Alignment
 
@@ -51,7 +51,7 @@ plt.annotate('hright\nvbottom', (1,2), ha='right', va='bottom', fontsize=8)
 plt.axis('off')
 ```
 
-![](matplotlib_images\annotation_alignment.png)
+![](matplotlib_images/annotation_alignment.png)
 
 ### 3. Get Legend Handle for Different Scatter Size
 
@@ -70,5 +70,5 @@ handle, label = sc.legend_elements('sizes', num=[200,150,100,50], color='white',
 plt.legend(handle, label)
 ```
 
-![](matplotlib_images\scatter_legend_different_size.png)
+![](matplotlib_images/scatter_legend_different_size.png)
 
